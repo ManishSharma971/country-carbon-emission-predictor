@@ -1,0 +1,28 @@
+{
+  "selected_model": "random_forest",
+  "scores": {
+    "mean_baseline": {
+      "rmse": 561.8172809081035,
+      "mae": 286.2618115885541,
+      "r2": -0.03927135521809211
+    },
+    "linear_regression": {
+      "rmse": 138.31042871034768,
+      "mae": 35.1782855039396,
+      "r2": 0.9370133333854064
+    },
+    "random_forest": {
+      "rmse": 36.48227079155077,
+      "mae": 9.620296726659088,
+      "r2": 0.9956176960585923
+    }
+  },
+  "test_rows": 1084,
+  "features": [
+    "year",
+    "population",
+    "gdp",
+    "country"
+  ],
+  "target": "co2"
+}
